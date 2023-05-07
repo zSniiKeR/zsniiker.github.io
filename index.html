@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Para a Helô ❤️</title>
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preload" as="image" href="fundo2.gif">
+    <link rel="preload" as="image" href="fundo3.gif">
+    <link rel="preload" as="image" href="fundo4.jpg">
+    <link rel="preload" as="image" href="fundo7.gif">
+    <link rel="preload" as="image" href="fundo9.gif">
+    <link rel="preload" as="audio" href="musica.mp3">
+
+</head>
+
+
+    <div class="pop-up">
+        <h1 class="text-muted">Título teste</h1>
+        <div>Descriçao teste</div>
+        <section class="text-center">
+            <button class="btn-azul" onclick="mostraPopUp(false)">Fechar</button>
+        </section>
+    </div>
+    
+    <div class="container d-flex justify-content-center">
+
+        <div id="tela1" class="tela tela-centro visivel">
+            <h1 class="text-muted">Bem-vinda</h1>
+            <p>Você está pronta?</p>
+            <button class="mudaTela btn-azul">Próximo</button>
+
+            <!--
+            <div class="mt-5">
+
+                <a href="#" class="opcoes">Ver opções</a>
+                <div class="invisivel opcoes">
+                    <p>Se quiser, você pode escolher começar de uma tela específica:</p>
+                    <button class="btn-rosa mudaTela" tela="">Início</button>
+                    <button class="btn-rosa">Mensagens</button>
+                    <button class="btn-rosa">Momentos marcantes</button>
+                    <button class="btn-rosa">O que você mudou em mim</button>
+                    <button class="btn-rosa">Nossa primeira conversa</button>
+                    <button class="btn-rosa">Memorial</button>
+                    <button class="btn-rosa">Declaração</button>
+                    <button class="btn-rosa">Final</button>
+                </div>
+
+            </div>
+            -->
+
+        </div>
+
+        <div id="tela2" class="tela" fundo="fundo1">
+            <p class="text-muted"><small>Antes de começar:</small>
+                <br>
+            <strong>Lhe dedico esta músiquinha com todo amor e carinho.</strong></p>
+            <img src="tela2.png" class="custom" width="150" alt="">
+            <br>
+
+            <button class="mudaTela btn-azul btn-block mt-5" animacao="null" tempoAnimacao="500">Próximo</button>
+            <br>
+       
+
+        </div>
+
+        <div id="tela3" class="tela">
+            <p><strong>Ps. Eu Te Amo</strong><br> É um presentinho simples...</p>
+            <img src="telagif.gif" class="custom" width="150" alt="">
+
+            <br>
+            <button class="mudaTela btn-block btn-azul">Próximo</button>
+            <br>
+        </div>
+
+        <div id="tela4" class="tela">
+            <h2>Sem mais delongas</h2>
+
+            <img src="tela4.gif" class="custom mb-4" width="150" alt="">
+
+            <p>Espero que <strong>GOSTE</strong> desta música.</strong>
+                <br><small class="text-muted" style="font-weight: 700;"></small>
+            </p>
+
+            <button class="mudaTela btn-azul">VAI LOGO PELO AMOR DE DEUS</button>
+      
+        </div>
+
+        <div id="tela5" class="tela">
+            <p>Para que tudo dê certo, você precisa estar ouvindo a música de fundo.</p>
+            <hr>
+			<p><small>Por gentileza, coloque o FONE porque to com vergonha.</small></p>
+            <p><small>Quando estiver ouvindo-a, clique no botão.</small></p>
+            <button class="mudaTela btn-azul">Continuar</button>
+
+        </div>
+
+        <div id="tela6" class="tela">
+         
+            <div class="text-start">
+                <div class="text-center">
+                    <h2 class="letra-vermelha">Ps. Eu Te Amo</h2>
+                    <img src="tela8-1.png" alt="">
+                    <p class="letra2" style="font-size: 0.8em;"><strong></strong></p>
+                </div>
+				<div class="text-center">
+                    <h2 class="letra-vermelha">Meu Visual Preferido</h2>
+                </div>
+				
+                <hr>
+                <p><strong class="letra-vermelha"></strong>Eu te chamei para dançar um sambinha comigo</strong></p>
+                <p><strong class="letra-vermelha"></strong> Você tão linda de olhar</p>
+				<p><strong class="letra-vermelha"></strong>Meu visual preferido</strong></p>
+                <p><strong class="letra-vermelha"></strong></p>
+				<p><strong class="letra-vermelha"></strong></p>
+				<p><strong class="letra-vermelha">Gata dança. cê dança encanta a multidão</strong></p>
+				<p><strong class="letra-vermelha">A multidão do meu coração.</strong></p>
+				<p><strong class="letra-vermelha">Fico preso na batida</strong></p>
+				<p><strong class="letra-vermelha">Você é a minha VIDA</strong></p>
+				<p><strong class="letra-vermelha">Hoje só termina quando o dia virar</strong></p>
+                <p><strong class="letra-vermelha"></strong> No alto do morro ouvindo chorão</p>
+				<p><strong class="letra-vermelha"></strong> Choro enquanto canto, sai do coração</p>
+				<p><strong class="letra-vermelha"></strong> Você me conforta e pede pra ficar</p>
+				<p><strong class="letra-vermelha"></strong> É claro amor, eu vou ficar</p>
+				<p><strong class="letra-vermelha"></strong> É tão incrível se sentir refém</p>
+				<p><strong class="letra-vermelha"></strong> De uma pessoa que me faz tão bem</p>
+				<p><strong class="letra-vermelha"></strong> Essa voz tão fofa que me enfeitiça</p>
+				<p><strong class="letra-vermelha"></strong> Já acabou com toda a minha DEFESA</p>
+				<p><strong class="letra-vermelha"></strong></p>
+				<p><strong class="letra-vermelha"></strong></p>
+				<p><strong class="letra-vermelha">Gata dança. cê dança encanta a multidão</strong></p>
+				<p><strong class="letra-vermelha">A multidão do meu coração.</strong></p>
+				<p><strong class="letra-vermelha">Fico preso na batida</strong></p>
+				<p><strong class="letra-vermelha">Você é a minha VIDA</strong></p>
+				<p><strong class="letra-vermelha">Hoje só termina quando o dia virar</strong></p>
+           
+          
+
+            </div>
+
+
+        </div>
+
+        
+   
+       
+     
+        
+            
+     
+
+    </div>
+
+
+    
+
+    <!--<script src="js/bootstrap.min.js"></script>-->
+
+    <script src="script.js"></script>
+    <!--<script src="all.min.js"></script>-->
+
+</body>
+</html>
